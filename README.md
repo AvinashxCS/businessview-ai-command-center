@@ -20,12 +20,12 @@ The platform operates on a **Zero-Cost Caching Architecture** with background sy
 
 ```mermaid
 flowchart TD
-    subgraph Third-Party integrations [Live API Sources]
+    subgraph Integrations [Live API Sources]
         R[Razorpay API]
         S[Salesforce API]
     end
 
-    subgraph Data & Sync [Sync & Storage Layer]
+    subgraph DataSync [Sync & Storage Layer]
         SW[Background Scheduler] -->|Every 4 hours| R
         SW -->|Every 4 hours| S
         R -->|Active Subscriptions| DB[(Supabase Cache / Local Fallback)]
@@ -48,8 +48,9 @@ flowchart TD
         SYN -->|Executive Briefing| UI[React Frontend Dashboard]
     end
     
+    style Integrations fill:#1b1b2f,stroke:#3b3b5c,stroke-width:2px;
+    style DataSync fill:#152c1e,stroke:#2a5c3a,stroke-width:2px;
     style Orchestrator fill:#1e1e38,stroke:#4a4a8a,stroke-width:2px;
-    style Data & Sync fill:#152c1e,stroke:#2a5c3a,stroke-width:2px;
 ```
 
 ### Key Workflows:
