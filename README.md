@@ -10,7 +10,8 @@ A modern, high-performance executive dashboard powered by a Multi-Agent Chief of
 ![Dashboard View](images/dashboard.png)
 
 ### 🔍 Global Company Search Interface
-![Global Search View](images/search_results.png)
+<img width="1887" height="810" alt="Screenshot 2026-06-28 182836" src="https://github.com/user-attachments/assets/8751f6b4-a0b4-4891-9644-e964ba35afc3" />
+
 
 ---
 
