@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-openai
+openai
+groq
+supabase
+pydantic
+python-dotenv
+razorpay
+simple-salesforce
+apscheduler

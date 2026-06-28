@@ -1,0 +1,31 @@
+{
+  "pipeline": {
+    "total_value": 1820000,
+    "total_deals": 47,
+    "avg_deal_size": 38723,
+    "win_rate_pct": 42,
+    "velocity_days": 34
+  },
+  "stages": {
+    "lead": 18,
+    "qualified": 12,
+    "proposal": 9,
+    "negotiation": 5,
+    "closed_won": 3
+  },
+  "stalled_deals": [
+    {"id": "D-201", "value": 62000, "stage": "negotiation", "stalled_days": 17},
+    {"id": "D-188", "value": 45000, "stage": "negotiation", "stalled_days": 15}
+  ],
+  "q3_forecast": {
+    "best_case": 520000,
+    "likely": 390000,
+    "worst_case": 260000
+  },
+  "loss_reasons": ["pricing", "competitor", "timing", "no_budget"],
+  "quarterly_revenue": {
+    "Q1": 310000,
+    "Q2": 352000,
+    "Q3_actual_to_date": 198000
+  }
+}

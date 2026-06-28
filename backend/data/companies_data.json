@@ -1,0 +1,191 @@
+{
+  "nvidia": {
+    "name": "NVIDIA Corporation",
+    "ticker": "NVDA",
+    "financials": {
+      "market_cap": 3150000000000,
+      "revenue": 96310000000,
+      "revenue_growth_pct": 122,
+      "net_income": 53000000000,
+      "gross_margin_pct": 75.3,
+      "cash_position": 34800000000,
+      "runway_months": null
+    },
+    "sales": {
+      "pipeline_value": 24000000000,
+      "active_deals": 340,
+      "win_rate_pct": 68,
+      "velocity_days": 45,
+      "segments": {
+        "Data Center": 83,
+        "Gaming": 11,
+        "Professional Visualization": 3,
+        "Automotive": 3
+      }
+    },
+    "marketing": {
+      "brand_sentiment_score": 0.88,
+      "sentiment_trend": "improving",
+      "cac_usd": 48000,
+      "ltv_cac_ratio": 12.4,
+      "channel_mix_pct": {
+        "Developer Outreach": 45,
+        "Events & Conferences": 25,
+        "Paid Search": 15,
+        "Direct Enterprise": 15
+      },
+      "active_campaign": "Blackwell Enterprise AI Adoption"
+    }
+  },
+  "google": {
+    "name": "Alphabet Inc.",
+    "ticker": "GOOGL",
+    "financials": {
+      "market_cap": 2180000000000,
+      "revenue": 307390000000,
+      "revenue_growth_pct": 14,
+      "net_income": 73790000000,
+      "gross_margin_pct": 56.8,
+      "cash_position": 110900000000,
+      "runway_months": null
+    },
+    "sales": {
+      "pipeline_value": 18200000000,
+      "active_deals": 512,
+      "win_rate_pct": 54,
+      "velocity_days": 52,
+      "segments": {
+        "Google Search & Ads": 71,
+        "Google Cloud": 12,
+        "YouTube Ads": 10,
+        "Other Bets & Subscriptions": 7
+      }
+    },
+    "marketing": {
+      "brand_sentiment_score": 0.76,
+      "sentiment_trend": "stable",
+      "cac_usd": 120,
+      "ltv_cac_ratio": 9.8,
+      "channel_mix_pct": {
+        "Organic Search": 55,
+        "YouTube Campaigns": 20,
+        "Partner Ecosystem": 15,
+        "Paid Social": 10
+      },
+      "active_campaign": "Gemini AI Workspace Integration"
+    }
+  },
+  "apple": {
+    "name": "Apple Inc.",
+    "ticker": "AAPL",
+    "financials": {
+      "market_cap": 3320000000000,
+      "revenue": 385600000000,
+      "revenue_growth_pct": 6,
+      "net_income": 97000000000,
+      "gross_margin_pct": 46.2,
+      "cash_position": 67000000000,
+      "runway_months": null
+    },
+    "sales": {
+      "pipeline_value": 12500000000,
+      "active_deals": 210,
+      "win_rate_pct": 62,
+      "velocity_days": 30,
+      "segments": {
+        "iPhone": 51,
+        "Services": 24,
+        "Wearables & Accessories": 10,
+        "Mac": 8,
+        "iPad": 7
+      }
+    },
+    "marketing": {
+      "brand_sentiment_score": 0.91,
+      "sentiment_trend": "improving",
+      "cac_usd": 850,
+      "ltv_cac_ratio": 15.2,
+      "channel_mix_pct": {
+        "Direct Apple Store": 50,
+        "Brand Ads & Keynotes": 25,
+        "Search Ads": 15,
+        "Affiliate Networks": 10
+      },
+      "active_campaign": "Apple Intelligence Privacy-First AI"
+    }
+  },
+  "microsoft": {
+    "name": "Microsoft Corporation",
+    "ticker": "MSFT",
+    "financials": {
+      "market_cap": 3210000000000,
+      "revenue": 245120000000,
+      "revenue_growth_pct": 16,
+      "net_income": 88100000000,
+      "gross_margin_pct": 70.1,
+      "cash_position": 75500000000,
+      "runway_months": null
+    },
+    "sales": {
+      "pipeline_value": 29800000000,
+      "active_deals": 880,
+      "win_rate_pct": 59,
+      "velocity_days": 58,
+      "segments": {
+        "Intelligent Cloud (Azure)": 43,
+        "Productivity (Office/SaaS)": 32,
+        "More Personal Computing (Windows/Xbox)": 25
+      }
+    },
+    "marketing": {
+      "brand_sentiment_score": 0.82,
+      "sentiment_trend": "improving",
+      "cac_usd": 4200,
+      "ltv_cac_ratio": 8.4,
+      "channel_mix_pct": {
+        "Enterprise Sales Field": 40,
+        "Partner Networks": 30,
+        "Digital Ads": 15,
+        "Community Outreach": 15
+      },
+      "active_campaign": "Copilot Studio Enterprise Platform"
+    }
+  },
+  "tesla": {
+    "name": "Tesla, Inc.",
+    "ticker": "TSLA",
+    "financials": {
+      "market_cap": 620000000000,
+      "revenue": 96770000000,
+      "revenue_growth_pct": 3,
+      "net_income": 15000000000,
+      "gross_margin_pct": 18.2,
+      "cash_position": 29000000000,
+      "runway_months": null
+    },
+    "sales": {
+      "pipeline_value": 6800000000,
+      "active_deals": 185,
+      "win_rate_pct": 45,
+      "velocity_days": 24,
+      "segments": {
+        "Automotive sales": 81,
+        "Energy generation & storage": 11,
+        "Services & Other": 8
+      }
+    },
+    "marketing": {
+      "brand_sentiment_score": 0.61,
+      "sentiment_trend": "declining",
+      "cac_usd": 150,
+      "ltv_cac_ratio": 24.5,
+      "channel_mix_pct": {
+        "Referrals & Word of Mouth": 60,
+        "Digital & PR Events": 20,
+        "Social Media Ads": 10,
+        "Direct Email": 10
+      },
+      "active_campaign": "Full Self-Driving FSD Supervised V12"
+    }
+  }
+}

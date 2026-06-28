@@ -1,0 +1,19 @@
+{
+  "tickets": {
+    "open": 143,
+    "avg_resolution_hrs": 9.4,
+    "prev_avg_resolution_hrs": 7.1,
+    "backlog_growth_pct": 22
+  },
+  "scores": {
+    "csat_pct": 71,
+    "prev_csat_pct": 77,
+    "nps": 28
+  },
+  "churn_signals": [
+    {"account_id": "A-882", "arr": 48000, "risk_level": "high", "sentiment_score": -0.72},
+    {"account_id": "A-901", "arr": 35000, "risk_level": "high", "sentiment_score": -0.61}
+  ],
+  "top_issues": ["onboarding", "billing", "api_timeouts", "missing_feature"],
+  "backlog_root_cause": "QA pipeline bottleneck blocking API timeout fix deployment"
+}

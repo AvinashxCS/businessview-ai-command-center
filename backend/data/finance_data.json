@@ -1,0 +1,29 @@
+{
+  "cash_position": 4140000,
+  "monthly_burn": 218000,
+  "prev_monthly_burn": 190000,
+  "runway_months": 19,
+  "revenue": {
+    "mrr": 352000,
+    "arr": 4224000,
+    "growth_pct": 11
+  },
+  "expenses": {
+    "payroll": 148000,
+    "infrastructure": 22000,
+    "marketing": 31000,
+    "other": 17000
+  },
+  "anomalies": [
+    {
+      "type": "spike",
+      "category": "infrastructure",
+      "expected": 17200,
+      "actual": 22000,
+      "delta_pct": 28,
+      "flagged": true,
+      "likely_cause": "idle compute cluster post data migration"
+    }
+  ],
+  "historical_burn": [172000, 178000, 183000, 190000, 218000]
+}

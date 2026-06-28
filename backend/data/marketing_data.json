@@ -1,0 +1,28 @@
+{
+  "cac": 1240,
+  "prev_cac": 1140,
+  "ltv": 8900,
+  "ltv_cac_ratio": 7.2,
+  "campaigns": [
+    {
+      "name": "Summer outbound",
+      "spend": 18000,
+      "leads_generated": 142,
+      "target_leads": 162,
+      "roi_pct": 210
+    }
+  ],
+  "channel_mix_pct": {
+    "organic": 38,
+    "paid_search": 29,
+    "social": 18,
+    "referral": 15
+  },
+  "sentiment": {
+    "score": 0.64,
+    "prev_score": 0.71,
+    "trend": "declining",
+    "sources": ["twitter", "g2", "capterra"]
+  },
+  "cpc_change_pct": 12
+}

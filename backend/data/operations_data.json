@@ -1,0 +1,20 @@
+{
+  "uptime_pct": 97.2,
+  "incidents_mtd": 2,
+  "mttr_hrs": 1.4,
+  "resources": {
+    "eng_utilization_pct": 84,
+    "bottlenecks": ["QA pipeline", "data migration cleanup"]
+  },
+  "productivity_index": 0.81,
+  "process_health": "green",
+  "infra_alerts": [
+    {
+      "type": "cost_spike",
+      "service": "compute",
+      "delta_pct": 28,
+      "cause": "idle cluster not terminated post data migration",
+      "monthly_waste_usd": 4200
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "inventory": {
+    "total_skus": 84,
+    "at_risk_skus": 3,
+    "stockout_probability_pct": 31
+  },
+  "vendors": [
+    {
+      "id": "V-041",
+      "name": "SEA Logistics Co",
+      "lead_time_days": 28,
+      "delay_days": 11,
+      "region": "Southeast Asia",
+      "cause": "port congestion"
+    }
+  ],
+  "logistics_cost_usd": 42000,
+  "geopolitical_risk_level": "medium",
+  "alerts": [
+    {
+      "type": "delay",
+      "vendor_id": "V-041",
+      "affected_skus": ["SKU-441", "SKU-382", "SKU-517"],
+      "q4_revenue_impact_usd": 280000,
+      "severity": "critical",
+      "reorder_deadline": "end_of_week"
+    }
+  ]
+}
